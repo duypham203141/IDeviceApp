@@ -16,6 +16,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <Provider theme={theme}>
+      {/* <SafeAreaProvider> */}
       <NavigationContainer>
         <Stack.Navigator
           initialRouteName="StartScreen"
@@ -32,6 +33,7 @@ export default function App() {
           />
         </Stack.Navigator>
       </NavigationContainer>
+      {/* </SafeAreaProvider> */}
     </Provider>
   );
 }
