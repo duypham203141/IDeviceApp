@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* AwesomeProject2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProject2Tests.m */; };
+		00E356F31AD99517003FC87E /* MyDeviceSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyDeviceSmartTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A4FD3943A83D09BA3CEA39D /* libPods-AwesomeProject2-AwesomeProject2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC99547003525DABF8CCC18 /* libPods-AwesomeProject2-AwesomeProject2Tests.a */; };
+		1A4FD3943A83D09BA3CEA39D /* libPods-MyDeviceSmart-MyDeviceSmartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC99547003525DABF8CCC18 /* libPods-MyDeviceSmart-MyDeviceSmartTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E05C38752B57F07436E797C6 /* libPods-AwesomeProject2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B550250A006ED4B79C511C /* libPods-AwesomeProject2.a */; };
+		E05C38752B57F07436E797C6 /* libPods-MyDeviceSmart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B550250A006ED4B79C511C /* libPods-MyDeviceSmart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AwesomeProject2;
+			remoteInfo = "MyDeviceSmart";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* AwesomeProject2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeProject2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MyDeviceSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyDeviceSmartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AwesomeProject2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeProject2Tests.m; sourceTree = "<group>"; };
-		13AD23495C2234AB8AE028C9 /* Pods-AwesomeProject2-AwesomeProject2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject2-AwesomeProject2Tests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* AwesomeProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeProject2/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AwesomeProject2/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeProject2/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject2/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject2/main.m; sourceTree = "<group>"; };
-		45A449C416D9A6AEF3B910EE /* Pods-AwesomeProject2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject2.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2.debug.xcconfig"; sourceTree = "<group>"; };
-		70F9F174CECBC10483C6ACBA /* Pods-AwesomeProject2-AwesomeProject2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject2-AwesomeProject2Tests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		79B550250A006ED4B79C511C /* libPods-AwesomeProject2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeProject2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject2/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CCC99547003525DABF8CCC18 /* libPods-AwesomeProject2-AwesomeProject2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeProject2-AwesomeProject2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* MyDeviceSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyDeviceSmartTests.m"; sourceTree = "<group>"; };
+		13AD23495C2234AB8AE028C9 /* Pods-MyDeviceSmart-MyDeviceSmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceSmart-MyDeviceSmartTests.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MyDeviceSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyDeviceSmart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "MyDeviceSmart/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "MyDeviceSmart/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "MyDeviceSmart/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "MyDeviceSmart/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "MyDeviceSmart/main.m"; sourceTree = "<group>"; };
+		45A449C416D9A6AEF3B910EE /* Pods-MyDeviceSmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceSmart.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart.debug.xcconfig"; sourceTree = "<group>"; };
+		70F9F174CECBC10483C6ACBA /* Pods-MyDeviceSmart-MyDeviceSmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceSmart-MyDeviceSmartTests.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79B550250A006ED4B79C511C /* libPods-MyDeviceSmart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDeviceSmart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "MyDeviceSmart/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		CCC99547003525DABF8CCC18 /* libPods-MyDeviceSmart-MyDeviceSmartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDeviceSmart-MyDeviceSmartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3A9D87010DC77E01AFF8B10 /* Pods-AwesomeProject2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject2.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2.release.xcconfig"; sourceTree = "<group>"; };
+		F3A9D87010DC77E01AFF8B10 /* Pods-MyDeviceSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceSmart.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4FD3943A83D09BA3CEA39D /* libPods-AwesomeProject2-AwesomeProject2Tests.a in Frameworks */,
+				1A4FD3943A83D09BA3CEA39D /* libPods-MyDeviceSmart-MyDeviceSmartTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E05C38752B57F07436E797C6 /* libPods-AwesomeProject2.a in Frameworks */,
+				E05C38752B57F07436E797C6 /* libPods-MyDeviceSmart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* AwesomeProject2Tests */ = {
+		00E356EF1AD99517003FC87E /* MyDeviceSmartTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AwesomeProject2Tests.m */,
+				00E356F21AD99517003FC87E /* MyDeviceSmartTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AwesomeProject2Tests;
+			path = "MyDeviceSmartTests";
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AwesomeProject2 */ = {
+		13B07FAE1A68108700A75B9A /* MyDeviceSmart */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AwesomeProject2;
+			name = "MyDeviceSmart";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				79B550250A006ED4B79C511C /* libPods-AwesomeProject2.a */,
-				CCC99547003525DABF8CCC18 /* libPods-AwesomeProject2-AwesomeProject2Tests.a */,
+				79B550250A006ED4B79C511C /* libPods-MyDeviceSmart.a */,
+				CCC99547003525DABF8CCC18 /* libPods-MyDeviceSmart-MyDeviceSmartTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AwesomeProject2 */,
+				13B07FAE1A68108700A75B9A /* MyDeviceSmart */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AwesomeProject2Tests */,
+				00E356EF1AD99517003FC87E /* MyDeviceSmartTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AwesomeProject2.app */,
-				00E356EE1AD99517003FC87E /* AwesomeProject2Tests.xctest */,
+				13B07F961A680F5B00A75B9A /* MyDeviceSmart.app */,
+				00E356EE1AD99517003FC87E /* MyDeviceSmartTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45A449C416D9A6AEF3B910EE /* Pods-AwesomeProject2.debug.xcconfig */,
-				F3A9D87010DC77E01AFF8B10 /* Pods-AwesomeProject2.release.xcconfig */,
-				70F9F174CECBC10483C6ACBA /* Pods-AwesomeProject2-AwesomeProject2Tests.debug.xcconfig */,
-				13AD23495C2234AB8AE028C9 /* Pods-AwesomeProject2-AwesomeProject2Tests.release.xcconfig */,
+				45A449C416D9A6AEF3B910EE /* Pods-MyDeviceSmart.debug.xcconfig */,
+				F3A9D87010DC77E01AFF8B10 /* Pods-MyDeviceSmart.release.xcconfig */,
+				70F9F174CECBC10483C6ACBA /* Pods-MyDeviceSmart-MyDeviceSmartTests.debug.xcconfig */,
+				13AD23495C2234AB8AE028C9 /* Pods-MyDeviceSmart-MyDeviceSmartTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AwesomeProject2Tests */ = {
+		00E356ED1AD99517003FC87E /* MyDeviceSmartTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeProject2Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyDeviceSmartTests" */;
 			buildPhases = (
 				7AC835DFD2AFD96701445A10 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AwesomeProject2Tests;
-			productName = AwesomeProject2Tests;
-			productReference = 00E356EE1AD99517003FC87E /* AwesomeProject2Tests.xctest */;
+			name = "MyDeviceSmartTests";
+			productname = "MyDeviceSmartTests";
+			productReference = 00E356EE1AD99517003FC87E /* MyDeviceSmartTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AwesomeProject2 */ = {
+		13B07F861A680F5B00A75B9A /* MyDeviceSmart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject2" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyDeviceSmart" */;
 			buildPhases = (
 				D8B8E9F0FDC41F3ACFAA8F12 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = AwesomeProject2;
-			productName = AwesomeProject2;
-			productReference = 13B07F961A680F5B00A75B9A /* AwesomeProject2.app */;
+			name = "MyDeviceSmart";
+			productName = "MyDeviceSmart";
+			productReference = 13B07F961A680F5B00A75B9A /* MyDeviceSmart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject2" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyDeviceSmart" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AwesomeProject2 */,
-				00E356ED1AD99517003FC87E /* AwesomeProject2Tests */,
+				13B07F861A680F5B00A75B9A /* MyDeviceSmart */,
+				00E356ED1AD99517003FC87E /* MyDeviceSmartTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,15 +272,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4DE9D04E1117C15EE7995859 /* [CP] Embed Pods Frameworks */ = {
@@ -289,15 +289,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C593CD24195D594100DB6A3 /* [CP] Copy Pods Resources */ = {
@@ -306,15 +306,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2-AwesomeProject2Tests/Pods-AwesomeProject2-AwesomeProject2Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart-MyDeviceSmartTests/Pods-MyDeviceSmart-MyDeviceSmartTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7AC835DFD2AFD96701445A10 /* [CP] Check Pods Manifest.lock */ = {
@@ -332,7 +332,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeProject2-AwesomeProject2Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyDeviceSmart-MyDeviceSmartTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -354,7 +354,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeProject2-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyDeviceSmart-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,15 +367,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject2/Pods-AwesomeProject2-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDeviceSmart/Pods-MyDeviceSmart-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AwesomeProject2Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* MyDeviceSmartTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AwesomeProject2 */;
+			target = 13B07F861A680F5B00A75B9A /* MyDeviceSmart */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,14 +430,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F9F174CECBC10483C6ACBA /* Pods-AwesomeProject2-AwesomeProject2Tests.debug.xcconfig */;
+			baseConfigurationReference = 70F9F174CECBC10483C6ACBA /* Pods-MyDeviceSmart-MyDeviceSmartTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AwesomeProject2Tests/Info.plist;
+				INFOPLIST_FILE = "MyDeviceSmartTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,17 +451,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeProject2.app/AwesomeProject2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDeviceSmart.app/MyDeviceSmart";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13AD23495C2234AB8AE028C9 /* Pods-AwesomeProject2-AwesomeProject2Tests.release.xcconfig */;
+			baseConfigurationReference = 13AD23495C2234AB8AE028C9 /* Pods-MyDeviceSmart-MyDeviceSmartTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AwesomeProject2Tests/Info.plist;
+				INFOPLIST_FILE = "MyDeviceSmartTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,19 +475,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeProject2.app/AwesomeProject2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDeviceSmart.app/MyDeviceSmart";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45A449C416D9A6AEF3B910EE /* Pods-AwesomeProject2.debug.xcconfig */;
+			baseConfigurationReference = 45A449C416D9A6AEF3B910EE /* Pods-MyDeviceSmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = AwesomeProject2/Info.plist;
+				INFOPLIST_FILE = "MyDeviceSmart/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "MyDeviceSmart";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +500,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AwesomeProject2;
+				PRODUCT_NAME = "MyDeviceSmart";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,12 +509,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3A9D87010DC77E01AFF8B10 /* Pods-AwesomeProject2.release.xcconfig */;
+			baseConfigurationReference = F3A9D87010DC77E01AFF8B10 /* Pods-MyDeviceSmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AwesomeProject2/Info.plist;
+				INFOPLIST_FILE = "MyDeviceSmart/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "MyDeviceSmart";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,7 +527,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AwesomeProject2;
+				PRODUCT_NAME = "MyDeviceSmart";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -671,7 +673,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeProject2Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyDeviceSmartTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -680,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject2" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyDeviceSmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -689,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject2" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyDeviceSmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
